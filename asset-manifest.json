@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Lukem-portfolio/static/css/main.b4b86e74.chunk.css",
+    "main.js": "/Lukem-portfolio/static/js/main.cc68eb81.chunk.js",
+    "main.js.map": "/Lukem-portfolio/static/js/main.cc68eb81.chunk.js.map",
+    "runtime-main.js": "/Lukem-portfolio/static/js/runtime-main.aca57276.js",
+    "runtime-main.js.map": "/Lukem-portfolio/static/js/runtime-main.aca57276.js.map",
+    "static/css/2.150d169a.chunk.css": "/Lukem-portfolio/static/css/2.150d169a.chunk.css",
+    "static/js/2.a4d64ffe.chunk.js": "/Lukem-portfolio/static/js/2.a4d64ffe.chunk.js",
+    "static/js/2.a4d64ffe.chunk.js.map": "/Lukem-portfolio/static/js/2.a4d64ffe.chunk.js.map",
+    "static/js/3.2fb173d3.chunk.js": "/Lukem-portfolio/static/js/3.2fb173d3.chunk.js",
+    "static/js/3.2fb173d3.chunk.js.map": "/Lukem-portfolio/static/js/3.2fb173d3.chunk.js.map",
+    "index.html": "/Lukem-portfolio/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/Lukem-portfolio/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.b4b86e74.chunk.css.map": "/Lukem-portfolio/static/css/main.b4b86e74.chunk.css.map",
+    "static/js/2.a4d64ffe.chunk.js.LICENSE.txt": "/Lukem-portfolio/static/js/2.a4d64ffe.chunk.js.LICENSE.txt",
+    "static/media/headshot.72462e0f.jpg": "/Lukem-portfolio/static/media/headshot.72462e0f.jpg",
+    "static/media/skulls.289d6f5b.png": "/Lukem-portfolio/static/media/skulls.289d6f5b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aca57276.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.a4d64ffe.chunk.js",
+    "static/css/main.b4b86e74.chunk.css",
+    "static/js/main.cc68eb81.chunk.js"
+  ]
+}
