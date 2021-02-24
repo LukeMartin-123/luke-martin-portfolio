@@ -1,0 +1,32 @@
+p {
+  margin: 10px;
+}
+  
+.card {
+  border: 3px solid !important;
+  margin: 10px;
+  min-height: 100%;
+  height: auto;
+  align-items: "center"
+}
+
+.btn {
+  color: #494949;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 10px;
+  border: 3px solid !important;
+  border-color: black;
+  transition: all 0.4s ease 0s;
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background: #a7a775;
+  border-color:  #a7a775;
+  transition: all 0.4s ease 0s;
+}
