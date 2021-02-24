@@ -10,7 +10,7 @@ const Card = (props) => {
       id: 1,
       title: "Shop & Chef",
       description: "This is a full-stack application that allows the user to create custom shopping lists and find new recipes. It also allows the user to add ingredients directly from a recipe to their shopping list!",
-      link: "https://shop-n-chef.herokuapp.com/"
+      link: "https://shop-and-chef.herokuapp.com/"
     },
 
     {
