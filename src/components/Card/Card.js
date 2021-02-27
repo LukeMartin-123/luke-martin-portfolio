@@ -49,20 +49,6 @@ const Card = (props) => {
       link: "https://lukemartin-123.github.io/Employee-Directory/"
     },
 
-    {
-    id: 7,
-    title: "Web Development",
-    description: "Aspiring web developer skilled in Javascript/Jquery, React, node.js, express, MySQL, MongoDB, Github, HTML, CSS/Bootstrap. Please find my Github Profile below for a more in depth look at my projects.",
-    link: "https://github.com/LukeMartin-123"
-  },
-
-  {
-    id: 8,
-    title: "Account Management",
-    description: "I have 5 years of experience working in advertising account management within multiple creative agencies. Serving as the day to day client contact, working cohesively with designers, writers, strategists, and clients on integrated advertising campaigns. Please find my LinkedIn Profile below to check out even more of my prior experience.",
-    link: "https://www.linkedin.com/in/luke-martin-profile/"
-  },
-
   ])
   
 
