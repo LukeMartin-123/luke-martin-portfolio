@@ -4,7 +4,7 @@ p {
 
   
 .card {
-  background: rgba(255, 255, 255, 0.39) !important;
+  background: rgba(211, 210, 210, 0.548) !important;
   border: solid rgba(73, 70, 71, 0.555) !important;
   margin: 10px;
   min-height: 100%;
@@ -16,9 +16,9 @@ p {
   color: #494949;
   text-transform: uppercase;
   text-decoration: none;
-  background: #ffffff;
+  background: RGB(247,247,223) !important;
   padding: 10px;
-  border: 3px solid !important;
+  border: solid rgba(73, 70, 71, 0.555)!important;
   border-color: black;
   transition: all 0.4s ease 0s;
   width: 50%;
@@ -28,8 +28,8 @@ p {
 
 .btn:hover {
   color: #ffffff;
-  background: #a7a775;
-  border-color:  #a7a775;
+  background: #0c7e1bb4 !important;
+  border-color:  #494949 !important;
   transition: all 0.4s ease 0s;
 }
 

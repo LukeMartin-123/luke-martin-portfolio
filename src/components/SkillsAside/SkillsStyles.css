@@ -21,13 +21,12 @@ h1, h2, h3, h4 {
 }
 
 .skillsBtn {
-    color: #494949;
+    color: #000000;
     text-transform: uppercase;
     text-decoration: none;
-    background: #ffffff;
+    background: RGB(247,247,223);
     padding: 10px;
-    border: 3px solid !important;
-    border-color: black;
+    border: solid rgba(73, 70, 71, 0.555)!important;
     transition: all 0.4s ease 0s;
     width: 25%;
     justify-content: center;
@@ -38,7 +37,7 @@ h1, h2, h3, h4 {
   
 .skillsBtn:hover {
     color: #ffffff;
-    background: #a7a775;
-    border-color:  #a7a775;
+    background: #0c7e1bb4;
+    border-color:  #494949;
     transition: all 0.4s ease 0s;
   }
