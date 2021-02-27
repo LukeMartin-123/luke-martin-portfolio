@@ -8,15 +8,20 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import background from "./assets/photos/skulls.png"
 
+var styles = 
+  { 
+    backgroundImage: `url(${background})`,
+    width: "auto",
+    height: "100%",
+    minHeight: "100vh"
+  }
+
 
 
 function App() {
   return (
     <Router>
-      <div className="App" style={{ 
-        backgroundImage: `url(${background})`,
-        width: "auto",
-        height: "1000px" }}>
+      <div className="App" style={styles}>
         <Header />
         <Route exact path="/luke-martin-portfolio/" component={About} />
         <Route exact path="/" component={About} />

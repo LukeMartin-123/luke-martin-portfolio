@@ -13,39 +13,43 @@ const Projects = () => {
         <Router>
             <div>
                 <Row>
-                    <Col size="md-4 sm-12 m-auto">
+                    <Col size="md-6 sm-12 m-auto">
                         <Card 
                         id={1}
                         />
                     </Col>
-                    <Col size="md-4 sm-12 m-auto">
+                    <Col size="md-6 sm-12 m-auto">
                     <Card 
                         id={2}
                         />
                     </Col>
-                    <Col size="md-4 sm-12 m-auto">
+                    </Row>
+                    <Row>
+                    <Col size="md-6 sm-12 m-auto">
                     <Card 
                         id={3}
                         />
                     </Col>
-                </Row>
-                <Row>
-                    <Col size="md-4 sm-12 m-auto">
+            
+               
+                    <Col size="md-6 sm-12 m-auto">
                     <Card 
                         id={4}
                         />
                     </Col>
-                    <Col size="md-4 sm-12 m-auto">
+                    </Row>
+                    <Row>
+                    <Col size="md-6 sm-12 m-auto">
                     <Card 
                         id={5}
                         />
                     </Col>
-                    <Col size="md-4 sm-12 m-auto">
+                    <Col size="md-6 sm-12 m-auto">
                     <Card 
                         id={6}
                         />
                     </Col>
-                </Row>
+                    </Row>
                 <Footer />
             </div>
         </Router>
