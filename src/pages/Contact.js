@@ -9,8 +9,6 @@ import "./contact.css"
 function Contact() {
   return (
     <Router>
-
-      <div className="container">
         <Container style={{ marginTop: 30, }}>
           <Row>
             <Col style={{ marginBottom: 30, }}size="md-12 sm-12">
@@ -21,7 +19,6 @@ function Contact() {
               </Row>
           </Container>
             <Footer />
-        </div>
       </Router>
     );
   }

@@ -16,8 +16,6 @@ var styles =
     minHeight: "100vh"
   }
 
-
-
 function App() {
   return (
     <Router>
@@ -25,9 +23,9 @@ function App() {
         <Header />
         <Route exact path="/luke-martin-portfolio/" component={About} />
         <Route exact path="/" component={About} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/Contact" component={Contact} />
         <Route exact path="/Portfolio" component={Projects} />
-        <Route exact path="/skills" component={Skills} />
+        <Route exact path="/Skills" component={Skills} />
         <Footer />
       </div>
     </Router>

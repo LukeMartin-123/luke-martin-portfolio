@@ -9,15 +9,14 @@ import "./about.css"
 function About() {
     return (
         <div>
-            <Container style={{ marginTop: 30 }}>
           <Row>
-          <img src= {headshot} alt="Headshot" class="headshot" />
+          <img src= {headshot} alt="Headshot" class="headshot" 
+          style={{ marginTop: 30 }}/>
             <Col size="md-12">
             <h1 class="intro">Aspiring Web Developer</h1>
             <h1 class="intro-line2"> Former Advertising Account Supervisor</h1>
             </Col>
           </Row>
-        </Container>
         <Footer />
       </div>
   );

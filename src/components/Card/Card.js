@@ -59,8 +59,6 @@ const Card = (props) => {
         .filter((project) => project.id === props.id)
         .map((project) => (
           <div class = "card" 
-          style={{ 
-            backgroundColor: "#EAEAE1",}}
           key={project.id}>
           <h1> {project.title}</h1>
           <p> {project.description}</p>

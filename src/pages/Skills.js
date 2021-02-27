@@ -13,9 +13,8 @@ function Skills() {
             <div>
                 <Container style={{ marginTop: 30 }}>
             <Row> 
-                
                     <SkillsAside />
-            </Row>
+                    </Row>
                 </Container>
                 <Footer />
             </div>

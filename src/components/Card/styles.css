@@ -1,9 +1,11 @@
 p {
   margin: 10px;
 }
+
   
 .card {
-  border: 3px solid !important;
+  background: rgba(255, 255, 255, 0.39) !important;
+  border: solid rgba(73, 70, 71, 0.555) !important;
   margin: 10px;
   min-height: 100%;
   height: auto;
@@ -30,3 +32,4 @@ p {
   border-color:  #a7a775;
   transition: all 0.4s ease 0s;
 }
+

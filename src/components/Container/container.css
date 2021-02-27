@@ -1,6 +1,8 @@
 .container {
-    border: 1px;
-    background-color: coral;
-    height: 100%;
-    }
+    background: rgba(255, 255, 255, 0.39);
+    border: solid rgba(73, 70, 71, 0.555);
+    border-radius: 5px;
+    margin-bottom: 10%;
+}
+
 

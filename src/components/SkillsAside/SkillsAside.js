@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "../Row/Row.js";
 import Col from "../Col/Col.js";
-import "./styles.css";
+import "./SkillsStyles.css";
 
 
 function SkillsAside() {
@@ -24,10 +24,6 @@ function SkillsAside() {
             </p>
 
           <p>
-            My last position in advertising before pursuing web development was Account Supervisor in a small Colorado start up agency where I had the freedom and responsibility to manage my own accounts how I saw fit. This included managing the internal workflow of the agency, client budgets, timelines and mentoring an account manager below me.
-        </p>
-
-          <p>
             Since leaving the advertising industry I've completed a 12 week accelerated web development program through the University of Pennsylvania. Through this program I've learned multiple coding languages, frameworks and general principles that I look forward to improving on and continuing to grow as I look to make web development my new career.
         </p>
         </div>
@@ -42,7 +38,7 @@ function SkillsAside() {
 
           <Row>
             <Col size="md-3 sm-6">
-              <h4 className="title"> Languages</h4>
+              <h4 className="subtitle"> Languages</h4>
               <ul>
                 <li>
                   HTML5
@@ -60,7 +56,7 @@ function SkillsAside() {
             </Col>
 
             <Col size="md-3 sm-6">
-              <h4 className="title"> Libraries and Frameworks </h4>
+              <h4 className="subtitle"> Libraries and Frameworks </h4>
               <ul>
                 <li>
                   React
@@ -86,7 +82,7 @@ function SkillsAside() {
             </Col>
 
             <Col size="md-3 sm-6">
-              <h4 className="title"> Data </h4>
+              <h4 className="subtitle"> Data </h4>
               <ul>
                 <li>
                   MongoDB
@@ -100,7 +96,7 @@ function SkillsAside() {
             </Col>
 
             <Col size="md-3 sm-6">
-              <h4 className="title"> Other Skills </h4>
+              <h4 className="subtitle"> Other Skills </h4>
               <ul>
                 <li>
                   Github Versioning
@@ -130,9 +126,18 @@ function SkillsAside() {
       </h3>
           </div>
           <Col size="md-12 sm-12">
-            <button> Linkedin </button>
+            <button 
+            type="submit" 
+            className="skillsBtn" 
+            onClick={()=> window.open("https://www.linkedin.com/in/luke-martin-profile/", "_blank")}>Linkedin
+          </button>
 
-            <button> Github </button>
+          <button 
+            type="submit" 
+            className="skillsBtn" 
+            onClick={()=> window.open("https://github.com/LukeMartin-123", "_blank")}>Github
+          </button>
+
           </Col>
         </div>
       </Col>
